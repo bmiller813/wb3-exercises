@@ -1,6 +1,10 @@
 // EXERCISE 1 SLIDE 16
 function displayMailingLabel(name, address, city,  state, zip){
-    console.log(name); console.log(address); console.log(city); console.log(state);  console.log(zip);
+    console.log(name); 
+    console.log(address); 
+    console.log(city); 
+    console.log(state);  
+    console.log(zip);
 }
 
 
