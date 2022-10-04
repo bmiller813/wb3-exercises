@@ -21,3 +21,13 @@ console.log(words);
 //Put array pieces back into a single string - using join()
 text2 = words.join("-"); //glue back together with a space
 console.log(text2);
+
+//old school loop
+/*
+for (let i = 0; i < words.length; i++){ 
+    console.log(words[i])
+}
+*/
+
+//new school 
+words.forEach(w => {console.log(w);}); 
